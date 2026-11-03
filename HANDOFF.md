@@ -21,3 +21,5 @@ This repository is a **shell for a future Claude project**, created 2026-10-29 b
 ## Log
 
 - **2026-10-29** — Shell created (README.md + this HANDOFF.md). Awaiting project assignment from Tj.
+
+- **2026-11-02** — HELD IN RESERVE by the roster decision of 2026-11-02: eight researched games were assigned to shells 01–08. This shell stays unassigned on purpose — focus beats dilution. It is reserved for a sequel, a variant, or the next research round. Do not invent a project for it.
