@@ -1,0 +1,13 @@
+{
+  "name": "narra-reader",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Narra: a read-aloud web app with voices, speed control, live highlighting and a saved library.",
+  "scripts": {
+    "start": "npx --yes http-server -c-1 -p 8080 .",
+    "test": "node --test tests/*.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.3"
+  }
+}
