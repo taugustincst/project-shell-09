@@ -1,6 +1,6 @@
 # HANDOFF — project-shell-09
 
-## Status: SHELL — no project assigned yet
+## Status: ASSIGNED — Narra, a read-aloud web app (2026-11-09)
 
 This repository is a **shell for a future Claude project**, created 2026-10-29 by Folder (Muse) at Tj's direction, using the same route as the other project repos (bubblepop, ironhold).
 
@@ -24,3 +24,4 @@ This repository is a **shell for a future Claude project**, created 2026-10-29 b
 
 - **2026-11-02** — HELD IN RESERVE by the roster decision of 2026-11-02: eight researched games were assigned to shells 01–08. This shell stays unassigned on purpose — focus beats dilution. It is reserved for a sequel, a variant, or the next research round. Do not invent a project for it.
 - **2026-11-02** — GitHub Pages ENABLED (workflow deploy, standard static workflow added at .github/workflows/pages.yml). Site: https://taugustincst.github.io/project-shell-09/ — until the game is built, this serves the repo files (README/HANDOFF); the shipped game + privacy.html deploy from this same root.
+- **2026-11-09** — ASSIGNED by Tj: "Use one of the shell repos" for his read-aloud app request. This shell now holds **Narra**, an original text-to-speech reader (paste text, PDF/Word/text/HTML files, links; device voices via the Web Speech API; 0.5–3× speed; sentence and word highlighting; saved library with reading position). Plain static web app, no build step; `npm test` runs Node tests (jsdom). Arrived as branch `claude/narra-reader` with a PR for Tj's review. Not yet checked: real speech in a browser, and PDF/Word import (helpers load from cdnjs). Merging to main deploys it to this repo's GitHub Pages site. Next: Tj tries it, then decide on Android wrapping (TWA or Capacitor). **FOR TJ**: merge, and whether the repo should be renamed or made private (it is public today).
